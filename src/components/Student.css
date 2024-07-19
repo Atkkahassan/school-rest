@@ -1,0 +1,38 @@
+/* Students.css */
+.students-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .students-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .student-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-name {
+    font-weight: bold;
+  }
+  
+  .student-reg-number,
+  .student-class {
+    display: block;
+    color: #666666;
+  }
+  
